@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-int bt6_main();
+int bt7_main();
 
 int main() {
-	return bt6_main();
+	return bt7_main();
 }

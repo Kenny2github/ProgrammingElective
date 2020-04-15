@@ -36,5 +36,8 @@
     <ClCompile Include="bt3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="bt7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
