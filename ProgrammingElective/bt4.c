@@ -11,23 +11,24 @@ int bt4_main() {
 	scanf("%lf", &b);
 	printf("c?\t");
 	scanf("%lf", &c);
+	// end input
 
 	if (a == 0) {
 		printf("a=0, not quadratic!\n");
-		ret = 1;
-		goto end;
+		ret = 1; // mark as error
+		goto end; // pause and done
 	}
-	delta = b*b - 4*a*c;
+	delta = b*b - 4*a*c; // formula for discriminant
 	if (delta < 0) {
 		printf("No real roots!\n");
 		goto end;
 	}
 	if (delta == 0) {
-		printf("Double roots:\n%.4f\n", (-b + sqrt(delta)) / (2*a));
+		printf("Double roots:\n%.4f\n", -b / (2*a)); // sqrt(0) = 0
 		goto end;
 	}
-	printf("Two real roots:\n%.4f and %.4f\n", (-b + sqrt(delta)) / (2*a), (-b - sqrt(delta)) / (2*a));
-	end:
+	printf("Two real roots:\n%.4f and %.4f\n", (-b + sqrt(delta)) / (2*a), (-b - sqrt(delta)) / (2*a)); // print +- roots
+	end: // comes from three places
 	system("pause");
 	return ret;
 }
