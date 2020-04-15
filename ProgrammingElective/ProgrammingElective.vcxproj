@@ -149,7 +149,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bt1.c" />
     <ClCompile Include="bt2.c" />
+    <ClCompile Include="bt3.c" />
     <ClCompile Include="bt4.c" />
     <ClCompile Include="bt5.c" />
     <ClCompile Include="bt6.c" />
