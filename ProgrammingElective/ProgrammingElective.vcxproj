@@ -158,6 +158,7 @@
     <ClCompile Include="bt6.c" />
     <ClCompile Include="bt7.c" />
     <ClCompile Include="bt8.c" />
+    <ClCompile Include="bt9.c" />
     <ClCompile Include="Sandbox.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

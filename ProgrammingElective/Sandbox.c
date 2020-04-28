@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-int anime_main();
+int bt9_main();
 
 int main() {
-	return anime_main();
+	return bt9_main();
 }

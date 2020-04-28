@@ -45,5 +45,8 @@
     <ClCompile Include="Animation.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="bt9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
