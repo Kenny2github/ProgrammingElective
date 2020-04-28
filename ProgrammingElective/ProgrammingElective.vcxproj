@@ -151,6 +151,7 @@
   <ItemGroup>
     <ClCompile Include="Animation.c" />
     <ClCompile Include="bt1.c" />
+    <ClCompile Include="bt10.c" />
     <ClCompile Include="bt2.c" />
     <ClCompile Include="bt3.c" />
     <ClCompile Include="bt4.c" />
