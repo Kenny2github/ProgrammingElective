@@ -54,5 +54,8 @@
     <ClCompile Include="bt11.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="bt14.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
