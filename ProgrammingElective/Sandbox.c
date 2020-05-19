@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-int bt15_main();
+int at1_main();
 
 int main() {
-	return bt15_main();
+	return at1_main();
 }
