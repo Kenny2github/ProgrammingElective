@@ -151,6 +151,9 @@
   <ItemGroup>
     <ClCompile Include="Animation.c" />
     <ClCompile Include="at1.c" />
+    <ClCompile Include="at2\circularQueue.c" />
+    <ClCompile Include="at2\linkedQueue.c" />
+    <ClCompile Include="at2\sequentialQueue.c" />
     <ClCompile Include="bt1.c" />
     <ClCompile Include="bt10.c" />
     <ClCompile Include="bt11.c" />

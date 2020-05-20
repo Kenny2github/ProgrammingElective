@@ -63,5 +63,14 @@
     <ClCompile Include="at1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="at2\sequentialQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="at2\circularQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="at2\linkedQueue.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
