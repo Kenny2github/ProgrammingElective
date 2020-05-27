@@ -1,5 +1,5 @@
-int linked_at2_main();
+int at3_main();
 
 int main() {
-	return linked_at2_main();
+	return at3_main();
 }

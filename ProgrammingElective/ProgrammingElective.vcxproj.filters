@@ -13,11 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\at2">
+      <UniqueIdentifier>{e0013542-f41b-41d1-bca1-b711416218d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sandbox.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="bt4.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -63,14 +63,20 @@
     <ClCompile Include="at1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="at2\sequentialQueue.c">
+    <ClCompile Include="at3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="at2\circularQueue.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\at2</Filter>
     </ClCompile>
     <ClCompile Include="at2\linkedQueue.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\at2</Filter>
+    </ClCompile>
+    <ClCompile Include="Sandbox.c">
+      <Filter>Source Files\at2</Filter>
+    </ClCompile>
+    <ClCompile Include="at2\sequentialQueue.c">
+      <Filter>Source Files\at2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
