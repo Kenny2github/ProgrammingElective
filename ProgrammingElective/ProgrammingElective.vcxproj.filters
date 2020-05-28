@@ -78,5 +78,8 @@
     <ClCompile Include="at2\sequentialQueue.c">
       <Filter>Source Files\at2</Filter>
     </ClCompile>
+    <ClCompile Include="at4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
