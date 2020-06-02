@@ -81,5 +81,11 @@
     <ClCompile Include="at4.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="at5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sorting.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

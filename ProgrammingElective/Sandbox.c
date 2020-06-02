@@ -1,5 +1,5 @@
-int at4_main();
+int sorting_main();
 
 int main() {
-	return at4_main();
+	return sorting_main();
 }

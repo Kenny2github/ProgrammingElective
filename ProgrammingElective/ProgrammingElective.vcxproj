@@ -156,6 +156,7 @@
     <ClCompile Include="at2\sequentialQueue.c" />
     <ClCompile Include="at3.c" />
     <ClCompile Include="at4.c" />
+    <ClCompile Include="at5.c" />
     <ClCompile Include="bt1.c" />
     <ClCompile Include="bt10.c" />
     <ClCompile Include="bt11.c" />
@@ -170,6 +171,7 @@
     <ClCompile Include="bt8.c" />
     <ClCompile Include="bt9.c" />
     <ClCompile Include="Sandbox.c" />
+    <ClCompile Include="sorting.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
