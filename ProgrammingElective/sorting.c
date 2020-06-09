@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdbool.h>
-#define COUNT 10000
+#define COUNT 1000
 
 // declare statically to not fill up stack
 int numbers[COUNT];
-void insertionSort(int* arrv, int arrc);
+void recursiveBubble(int* arrv, int arrc);
 
 bool checkSorted(int* arrv, int arrc) {
 	for (register int i = 0; i < arrc - 1; ++i) {
@@ -24,7 +24,7 @@ int sorting_main() {
 	}
 	fclose(fp);
 	// <CHANGED BETWEEN TASKS>
-	insertionSort(numbers, COUNT);
+	recursiveBubble(numbers, COUNT);
 	// </CHANGED BETWEEN TASKS>
 	// output
 	for (i = 0; i < COUNT; ++i) {

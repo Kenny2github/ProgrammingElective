@@ -87,5 +87,8 @@
     <ClCompile Include="sorting.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="at7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
