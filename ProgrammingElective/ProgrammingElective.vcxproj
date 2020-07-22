@@ -158,6 +158,7 @@
     <ClCompile Include="at4.c" />
     <ClCompile Include="at5.c" />
     <ClCompile Include="at7.c" />
+    <ClCompile Include="at8.c" />
     <ClCompile Include="bt1.c" />
     <ClCompile Include="bt10.c" />
     <ClCompile Include="bt11.c" />
