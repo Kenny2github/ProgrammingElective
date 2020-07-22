@@ -25,7 +25,7 @@ void merge(int l, int m, int r) {
 }
 
 void mergeSort(int l, int r) {
-	if (r == l+1 || r == l) {return;}
+	if (r == l+1 || r == l) return;
 	int m = (l + r) / 2;
 	mergeSort(l, m);
 	mergeSort(m, r);

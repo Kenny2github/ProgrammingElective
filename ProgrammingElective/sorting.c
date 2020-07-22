@@ -4,7 +4,7 @@
 
 // declare statically to not fill up stack
 int numbers[COUNT];
-void mergeMain(int* arrv, int arrc);
+void quickMain(int* arrv, int arrc);
 
 bool checkSorted(int* arrv, int arrc) {
 	for (register int i = 0; i < arrc - 1; ++i) {
@@ -24,7 +24,7 @@ int sorting_main() {
 	}
 	fclose(fp);
 	// <CHANGED BETWEEN TASKS>
-	mergeMain(numbers, COUNT);
+	quickMain(numbers, COUNT);
 	// </CHANGED BETWEEN TASKS>
 	// output
 	for (i = 0; i < COUNT; ++i) {
