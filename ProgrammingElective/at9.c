@@ -98,7 +98,11 @@ void print_list(linked_list* list) {
 	}
 }
 
+#ifdef __VSCODE
+int main() {
+#else
 int at9_main() {
+#endif
 	linked_list* list = create_list();
 	FILE* fp = fopen("numbers.txt", "r");
 	if (!fp) return 1;

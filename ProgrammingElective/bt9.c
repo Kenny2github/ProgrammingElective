@@ -2,8 +2,11 @@
 #include <stdlib.h>
 #include <math.h>
 
-int bt9_main()
-{
+#ifdef __VSCODE
+int main() {
+#else
+int bt9_main() {
+#endif
     float num[5];
     int length_of_array = 0;
 

@@ -3,7 +3,11 @@
 #include <string.h>
 #include <ctype.h>
 
+#ifdef __VSCODE
+int main() {
+#else
 int bt11_main() {
+#endif
 
     char input_string[BUFSIZ]; //BUFSIZ is a constant defined by the system.
     char target_string[BUFSIZ];

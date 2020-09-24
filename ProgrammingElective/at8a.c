@@ -32,7 +32,11 @@ void mergeSort(int l, int r) {
 	merge(l, m, r);
 }
 
+#ifdef __VSCODE
+int sortMain(int* arrv, int arrc) {
+#else
 int mergeMain(int* arrv, int arrc) {
+#endif
 	arr = arrv;
 	sort = malloc(sizeof(int) * arrc);
 	mergeSort(0, arrc);
@@ -40,3 +44,7 @@ int mergeMain(int* arrv, int arrc) {
 	printf("Sorted\n");
 	return 0;
 }
+
+#ifdef __VSCODE
+#include "sorting.c"
+#endif

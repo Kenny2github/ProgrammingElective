@@ -11,7 +11,11 @@
 
 void frame(int offset);
 
+#ifdef __VSCODE
+int main() {
+#else
 int anime_main() {
+#endif
 	int i = 0;
 	while (1) {
 		system("cls");

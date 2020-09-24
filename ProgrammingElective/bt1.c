@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int bt1_main(void) {
+#ifdef __VSCODE
+int main() {
+#else
+int bt1_main() {
+#endif
     printf("Memory occupied using the following datatypes:\n");
     printf("char         :%2d byte(s)\n", sizeof(char));
     printf("short int    :%2d byte(s)\n", sizeof(short int));

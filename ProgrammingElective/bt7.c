@@ -6,7 +6,11 @@ Printing Pattern Demo
 - To print a simple triangle pattern with n rows
 **************************/
 
+#ifdef __VSCODE
+int main() {
+#else
 int bt7_main() {
+#endif
 
     int i, j, n;
     char isContinue = 'N';

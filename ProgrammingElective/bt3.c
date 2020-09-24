@@ -5,7 +5,11 @@ void TempSwap(int a, int b);
 void PlusMinusSwap(int a, int b);
 void XORSwap(int a, int b);
 
+#ifdef __VSCODE
+int main() {
+#else
 int bt3_main(void) {
+#endif
     int a,b;
     printf("Input a and b: \n");
     scanf("%d %d", &a, &b); // store two space-separated numbers into a, b

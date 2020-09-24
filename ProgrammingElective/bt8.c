@@ -9,7 +9,11 @@ void pattern_3(int rows);
 void pattern_4(int rows);
 void pattern_5(int amplitude, int period, int length);
 
+#ifdef __VSCODE
+int main() {
+#else
 int bt8_main() {
+#endif
 	int rows, ampl, period, length;
 	char cont = 'Y';
 	do {

@@ -3,7 +3,11 @@
 #include <math.h>
 #define MAX_SIZE 10000
 
+#ifdef __VSCODE
+int main() {
+#else
 int bt10_main() {
+#endif
 	short* numv = malloc(MAX_SIZE * sizeof(short)); // short numv[MAX_SIZE];
 	if (numv == NULL) return 2; // memory failed to initialize
 	char line[8];

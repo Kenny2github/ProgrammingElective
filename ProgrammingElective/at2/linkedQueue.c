@@ -47,7 +47,11 @@ void linked_printQueue() {
 	printf("\n");
 }
 
+#ifdef __VSCODE
+int main() {
+#else
 int linked_at2_main() {
+#endif
 	char action, pushed;
 	do {
 		printf("Enter your action.\no - print out the queue\np - push an item onto the queue\nr - pop and print an item from the queue\ne - check if the queue is empty\nf - check if the queue is full\nq - quit\nAction: ");

@@ -38,8 +38,11 @@ char parenMatches(char open, char close) {
 		return 0;
 	}
 }
-
+#ifdef __VSCODE
+int main() {
+#else
 int at1_main() {
+#endif
 	char inp[10001];
 	char ch; // character being processed
 	int leng; // actual length of inp

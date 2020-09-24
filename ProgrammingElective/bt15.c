@@ -48,7 +48,11 @@ void collinear(struct Point p1, struct Point p2, struct Point p3) {
 	}
 }
 
+#ifdef __VSCODE
+int main() {
+#else
 int bt15_main() {
+#endif
 	struct Point p1, p2, p3, m;
 	double dist;
 	printf("Enter the coordinates of point 1: ");

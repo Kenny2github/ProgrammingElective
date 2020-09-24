@@ -2,7 +2,11 @@
 #include <stdio.h>
 #define PI 3.141592654
 
+#ifdef __VSCODE
+int main() {
+#else
 int bt2_main() {
+#endif
 	double radius; // radius of circle
 	printf("Radius?\t"); // prompt
 	scanf("%lf", &radius); // set radius to inputted number

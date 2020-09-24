@@ -1,4 +1,8 @@
+#ifdef __VSCODE
+void sortMain(int* arrv, int arrc) {
+#else
 void recursiveBubble(int* arrv, int arrc) {
+#endif
 	if (arrc <= 1) return;
 	register int i, tmp;
 	for (i = 0; i < arrc - 1; ++i) {
@@ -13,3 +17,7 @@ void recursiveBubble(int* arrv, int arrc) {
 	// excludes the newly sorted last item
 	recursiveBubble(arrv, arrc - 1);
 }
+
+#ifdef __VSCODE
+#include "sorting.c"
+#endif

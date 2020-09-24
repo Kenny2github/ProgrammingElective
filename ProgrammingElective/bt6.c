@@ -1,7 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#ifdef __VSCODE
+int main() {
+#else
 int bt6_main() {
+#endif
 	int start, cols, upto, row, col;
 	printf("Starting from? [1-90] ");
 	scanf("%d", &start);

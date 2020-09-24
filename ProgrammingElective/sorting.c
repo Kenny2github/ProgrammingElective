@@ -15,7 +15,11 @@ bool checkSorted(int* arrv, int arrc) {
 	return true;
 }
 
+#ifdef __VSCODE
+int main() {
+#else
 int sorting_main() {
+#endif
 	FILE* fp = fopen("numbers.txt", "r");
 	if (!fp) return 1;
 	register int i;
@@ -23,9 +27,13 @@ int sorting_main() {
 		fscanf(fp, "%d", numbers + i);
 	}
 	fclose(fp);
+	#ifdef __VSCODE
+	sortMain(numbers, COUNT);
+	#else
 	// <CHANGED BETWEEN TASKS>
 	quickMain(numbers, COUNT);
 	// </CHANGED BETWEEN TASKS>
+	#endif
 	// output
 	for (i = 0; i < COUNT; ++i) {
 		printf("%d\t", numbers[i]);

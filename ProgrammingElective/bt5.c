@@ -2,8 +2,11 @@
 #include <stdlib.h>
 #include <math.h>
 
-int bt5_main()
-{
+#ifdef __VSCODE
+int main() {
+#else
+int bt5_main() {
+#endif
 	float a, b; // input numbers
 	char op; // operator
 	float result = 0; // have default value to suppress warnings

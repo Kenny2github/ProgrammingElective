@@ -17,8 +17,11 @@ int binarySearch(int arrv[], int arrc, int query) {
 	}
 	return idx;
 }
-
+#ifdef __VSCODE
+int main() {
+#else
 int at3_main() {
+#endif
 	int arr[] = { 0, 1, 8, 12, 12, 18, 18, 45, 55, 99 };
 	int n = 45;
 	printf("%d is found at index %d\n", n, binarySearch(arr, sizeof(arr) / sizeof(int), n));

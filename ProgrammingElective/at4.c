@@ -1,6 +1,10 @@
 #include <stdbool.h>
 
+#ifdef __VSCODE
+void sortMain(int* arrv, int arrc) {
+#else
 void bubbleSort(int* arrv, int arrc) {
+#endif
 	register int i, j, tmp;
 	bool sorted = false;
 	// if sorted is still true by the end of the iteration,
@@ -20,3 +24,7 @@ void bubbleSort(int* arrv, int arrc) {
 		}
 	}
 }
+
+#ifdef __VSCODE
+#include "sorting.c"
+#endif

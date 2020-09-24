@@ -2,7 +2,11 @@
 #include <stdlib.h>
 #include <math.h>
 
+#ifdef __VSCODE
+int main() {
+#else
 int bt4_main() {
+#endif
 	double a, b, c, delta;
 	int ret = 0;
 	printf("Solving quadratic equation: ax^2 +bx +c\na?\t");

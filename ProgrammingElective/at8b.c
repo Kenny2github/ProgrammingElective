@@ -67,6 +67,14 @@ void quickSort(int* arr, int L, int R, int lvl) {
 	free(right);
 }
 
+#ifdef __VSCODE
+void sortMain(int* arrv, int arrc) {
+#else
 void quickMain(int* arrv, int arrc) {
+#endif
 	quickSort(arrv, 0, arrc, 0);
 }
+
+#ifdef __VSCODE
+#include "sorting.c"
+#endif

@@ -4,8 +4,11 @@
 #define NAMES 200
 
 /* BT14 Me on the Guest List? */
-int bt14_main()
-{
+#ifdef __VSCODE
+int main() {
+#else
+int bt14_main() {
+#endif
     FILE* fp;
     fp = fopen("names.txt", "r");
     if (fp == NULL) return 1;
