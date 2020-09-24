@@ -96,5 +96,8 @@
     <ClCompile Include="at8b.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="at9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

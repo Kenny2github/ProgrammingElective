@@ -160,6 +160,7 @@
     <ClCompile Include="at7.c" />
     <ClCompile Include="at8a.c" />
     <ClCompile Include="at8b.c" />
+    <ClCompile Include="at9.c" />
     <ClCompile Include="bt1.c" />
     <ClCompile Include="bt10.c" />
     <ClCompile Include="bt11.c" />
